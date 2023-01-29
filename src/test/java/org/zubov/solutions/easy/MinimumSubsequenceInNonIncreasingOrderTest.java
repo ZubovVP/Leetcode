@@ -10,12 +10,12 @@ import java.util.stream.Stream;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-class LicenseKeyFormattingTest {
+class MinimumSubsequenceInNonIncreasingOrderTest {
 
     public static Stream<Arguments> provideArrays() {
         return Stream.of(
                 Arguments.of(new int[]{4, 3, 10, 9, 8}, List.of(10, 9)),
-                Arguments.of(new int[]{4, 4, 7, 6, 7}, List.of(7, 7, 6))
+                Arguments.of(new int[]{4,4,7,6,7}, List.of(7, 7, 6))
         );
     }
 

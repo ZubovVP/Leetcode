@@ -14,8 +14,6 @@ class SearchInsertPositionTest {
                 Arguments.of(new int[]{1,3,5,6}, 5, 2),
                 Arguments.of(new int[]{1,3,5,6}, 2, 1),
                 Arguments.of(new int[]{1,3,5,6}, 7, 4)
-
-
         );
     }
 

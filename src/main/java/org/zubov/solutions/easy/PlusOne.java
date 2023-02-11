@@ -10,13 +10,11 @@ public class PlusOne {
                 digits[i - 1] = digits[i - 1] + 1;
             }
         }
-        if (digits[0] == 10) {
+        if (digits[0] == 9) {
             int[] newArray = new int[digits.length + 1];
             newArray[0] = 1;
             newArray[1] = 0;
-            for (int i = 2; i < newArray.length; i++) {
-                newArray[i] = digits[i - 1];
-            }
+            System.arraycopy(digits, 1, newArray, 2, newArray.length - 2);
             return newArray;
         }
         return digits;

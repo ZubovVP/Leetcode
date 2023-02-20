@@ -16,9 +16,4 @@ public class SortThePeople {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        String[] strings = sortPeople(new String[]{"Mary", "John", "Emma"}, new int[]{180, 165, 170});
-        System.out.println(Arrays.toString(strings));
-    }
 }

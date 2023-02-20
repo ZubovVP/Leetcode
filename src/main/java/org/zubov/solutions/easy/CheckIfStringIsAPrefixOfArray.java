@@ -14,8 +14,4 @@ public class CheckIfStringIsAPrefixOfArray {
         }
         return s.length() == 0;
     }
-
-    public static void main(String[] args) {
-        isPrefixString("iloveleetcode", new String[]{"i", "love", "leetcode", "apples"});
-    }
 }

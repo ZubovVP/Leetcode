@@ -1,6 +1,5 @@
 package org.zubov.solutions.easy;
 
-import java.util.Arrays;
 import java.util.Map;
 
 public class ReformatDate {
